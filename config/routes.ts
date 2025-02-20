@@ -36,6 +36,38 @@
 		component: './RandomUser',
 		icon: 'ArrowsAltOutlined',
 	},
+	{
+		path: '/to-do-list',
+		name: 'ToDoList',
+		component: './ToDoList',
+		icon: 'UnorderedListOutlined',
+	},
+	{
+		path: '/guess-number',
+		name: 'RandomNumber',
+		component: './RandomNum',
+		icon: 'UnorderedListOutlined',
+	},
+	
+	// {
+	// 	path: '/study-tracker',
+	// 	name: 'ToDoList',
+	// 	component: './StudyTracker',
+	// 	icon: 'UnorderedListOutlined',
+	// },
+
+	
+
+		{
+		  path: '/study-tracker',
+		  name: '📚 StudyTracker',
+		  routes: [
+			{ path: '/study-tracker/subjects', name: '📘 Quản lý Môn học', component: './StudyTracker/Subjects' },
+			{ path: '/study-tracker/progress', name: '⏳ Tiến độ Học tập', component: './StudyTracker/Progress' },
+			{ path: '/study-tracker/goals', name: '🎯 Mục tiêu Học tập', component: './StudyTracker/Goals' },
+		  ],
+		},
+	  
 
 	// DANH MUC HE THONG
 	// {
