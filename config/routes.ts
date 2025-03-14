@@ -48,7 +48,7 @@
 		component: './RandomNum',
 		icon: 'UnorderedListOutlined',
 	},
-	
+
 	// {
 	// 	path: '/study-tracker',
 	// 	name: 'ToDoList',
@@ -56,18 +56,20 @@
 	// 	icon: 'UnorderedListOutlined',
 	// },
 
-	
-
-		{
-		  path: '/study-tracker',
-		  name: '📚 StudyTracker',
-		  routes: [
+	{
+		path: '/study-tracker',
+		name: '📚 StudyTracker',
+		routes: [
 			{ path: '/study-tracker/subjects', name: '📘 Quản lý Môn học', component: './StudyTracker/Subjects' },
 			{ path: '/study-tracker/progress', name: '⏳ Tiến độ Học tập', component: './StudyTracker/Progress' },
 			{ path: '/study-tracker/goals', name: '🎯 Mục tiêu Học tập', component: './StudyTracker/Goals' },
-		  ],
-		},
-	  
+		],
+	},
+	{
+		path: '/app-service',
+		name: 'Service',
+		routes: [{ path: '/app-service/booking', name: 'Booking', component: './AppService/Booking' }],
+	},
 
 	// DANH MUC HE THONG
 	// {
